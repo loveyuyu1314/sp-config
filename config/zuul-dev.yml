@@ -9,12 +9,7 @@ spring:
     port: 5672
     username: admin
     password: admin
-<<<<<<< HEAD
- 
-    
-=======
 
->>>>>>> branch 'master' of https://github.com/loveyuyu1314/sp-config.git
 server:
   port: 3001
   
@@ -31,10 +26,7 @@ ribbon:
   ReadTimeout: 1000
   MaxAutoRetriesNextServer: 1
   MaxAutoRetries: 1
-<<<<<<< HEAD
-=======
-  
->>>>>>> branch 'master' of https://github.com/loveyuyu1314/sp-config.git
+
 hystrix:
   command:
     default:
