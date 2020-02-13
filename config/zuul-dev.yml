@@ -9,8 +9,12 @@ spring:
     port: 5672
     username: admin
     password: admin
+<<<<<<< HEAD
  
     
+=======
+
+>>>>>>> branch 'master' of https://github.com/loveyuyu1314/sp-config.git
 server:
   port: 3001
   
@@ -20,16 +24,17 @@ eureka:
       defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
 
 zuul:
-  routes:
-    item-service: /item-service/**
-    user-service: /user-service/**
-    order-service: /order-service/**
-    sensitive-headers: 
+  retryable: true
+    
 ribbon:
   ConnectTimeout: 1000
   ReadTimeout: 1000
   MaxAutoRetriesNextServer: 1
   MaxAutoRetries: 1
+<<<<<<< HEAD
+=======
+  
+>>>>>>> branch 'master' of https://github.com/loveyuyu1314/sp-config.git
 hystrix:
   command:
     default:
@@ -37,6 +42,7 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 500
+            
 management:
   endpoints:
     web:
