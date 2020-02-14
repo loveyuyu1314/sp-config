@@ -26,8 +26,4 @@ management:
   endpoints:
     web:
       exposure:
-<<<<<<< HEAD
         include: refresh
-=======
-        include: refresh
->>>>>>> branch 'master' of https://github.com/loveyuyu1314/sp-config.git
